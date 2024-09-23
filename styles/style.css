@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(330, 100%, 98%);
+    width: 1260px;
+    height: 2000px;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container {
+    width: 50%;
+    height: 1800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -900px;
+    margin-left: -25%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+}
+
+.content {
+    width: 90%;
+    
+}
+
+.content img {
+    width: 100%;
+}
